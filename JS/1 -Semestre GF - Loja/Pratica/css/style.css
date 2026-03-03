@@ -1,0 +1,74 @@
+ header{
+            background-color: aquamarine;
+        }
+
+        body{
+            background-color: aqua;
+
+        }
+        
+        
+        main{
+            margin: auto 5%;
+            
+        }
+
+        
+
+
+        
+        h1,h2{ 
+            color: red;
+            text-align: center;
+        }
+
+        h1{
+            text-transform: uppercase;
+        }
+
+        p{
+            text-align: justify;
+            color: red;
+        }
+
+        h5{
+            text-align: center;
+            color: blueviolet;
+        }
+
+        .destaque{
+            background-color: blue;
+            color: azure;
+            pad: 20px;
+            margin-bottom: 50px;
+        }
+
+
+        #img-logo{
+            width: 80px;
+            background-color: rgb(82, 37, 37) ;
+
+        }
+
+
+        #pratica{
+            text-align: center;
+            background-color: black;
+            color: azure;
+
+
+        }
+
+
+        nav li{
+            display: inline;
+            margin-left: 20px;
+            color: red;
+            font-weight: bold;
+            border: 2px solid  red;
+            padding: 5px;
+        }
+
+        nav{
+            float: right;
+        }

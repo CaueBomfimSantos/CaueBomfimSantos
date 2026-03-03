@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <title>Eleitores</title>
+        <meta charset="UTF-8">
+
+        <script>
+
+            const anoVotacao = Number(prompt('qual o ano da votação?'))
+            const anoNacimento= Number(prompt('Qual o ano de nascumento?'))
+
+
+            const idade = anoVotacao -  anoNacimento
+
+            if(idade < 16){
+                console.log('não tem idade pra votar!' + idade +' anos')
+            } else if(idade >= 18 && idade <65){
+                console.log('vc é obrigado a votar! '+ idade + ' anos')
+            } else{
+                console.log('seu voto é facultativo! ' + idade + ' anos')
+            }
+            
+            
+            
+            
+            
+            /*
+
+
+
+            if(idade < 16 ){
+                console.log('vc não tem idade min para votar! '+ idade +' anos')
+            } else if(idade < 18){
+                console.log('Seu voto é facultativo! '+ idade +' anos')
+            } else if(idade < 65){
+                console.log('Vc é obrigado a votar!!! ' + idade + ' anos')
+            } else {
+                console.log('Vc é obrigado a votar!!! ' + idade + ' anos')
+            } */
+
+            // else if(idade => 16 && idade < 18){
+            // else if(idade == 16 || idade == 17){
+
+            /*
+
+                        Aqui o codigo esta redundante.
+
+              if(idade < 16 ){
+                console.log('vc não tem idade min para votar! '+ idade +' anos')
+            } else if(idade >= 16 && idade < 18){
+                console.log('Seu voto é facultativo! '+ idade +' anos')
+            } else if(idade >= 18 && idade < 65){
+                console.log('Vc é obrigado a votar!!! ' + idade + 'anos')
+            } else if (idade >= 65){
+                console.log('Seu voto é facultativo! '+ idade +' anos')
+            } */
+
+
+
+        </script>
+
+
+    </head>
+    <body></body>
+</html>

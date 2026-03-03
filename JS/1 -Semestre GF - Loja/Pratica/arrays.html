@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Arrays</title>
+    <meta charset="UTF-8">
+
+    <script>
+        let jogos = ['Ação', 'Aventura', 'Terror', 'Esportes', 'Puzzles']
+
+        // add elementos no final 
+        jogos.push('SoulsLike')
+        console.table(jogos)
+        // add elemento no inicio
+        //jogos.unshift('Estrategia')
+        console.table(jogos)
+
+        jogos.splice(1,0,'RPG')
+        console.table(jogos)
+
+
+        jogos.sort()
+        
+        /*
+        
+        Splice serve para:
+        Excluir itens a partir de uma posição
+        ex: jogos.splice(2,3) -> exclui 3 itens a partir da posição 2
+
+        Inserir intes a partir de uma posição
+        ex: jogos.splice(3,0,'RPG') -> add o item 'RPG' na posição 3
+
+        Alterar itens a partir de uma posição
+        ex: jogos.splice(1,1,'RPG') -> add o item 'RPG' na posição 1 após apagar o item que la estava
+        
+        */
+        
+        
+        
+        
+        
+        /* remover elemento no final
+        jogos.pop()
+        console.table(jogos)
+        jogos.pop()
+        console.table(jogos)
+        jogos.pop()
+        console.table(jogos)
+        */
+
+        /* remover elemento no inicio
+        const jogo = jogos.shift()       
+        console.table(jogo)
+        jogos.pop()
+        console.table(jogos)
+    */
+        /*
+        
+        console.log(jogos)
+                 console.table(jogos)
+                 console.log(jogos[1])
+        
+        
+                const copa = [1994,1998,2002,2006,2010,2014,2018,2022,2026]
+        
+                console.log(copa[5])
+        
+        
+                 for(let i of jogos){
+                    console.log(i)
+                 }
+                ----------------------------
+                 for(let i = 0; i <4; i++){
+                    console.log(jogos[i])
+                 }*/
+
+    </script>
+
+
+
+
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>

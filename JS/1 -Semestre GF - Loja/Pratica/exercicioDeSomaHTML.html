@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        
+        <title>JAVASCRIPT</title>
+
+        <script type="text/javascript" src="js/funcoes.js">   
+              
+
+                
+                /*
+                
+                resultado.innerHTML = 'a soma dos numeros é de '+ mult
+                resultado.innerHTML = 'a soma dos numeros é de '+ divs
+                alert('a soma dos numeros é de '+ soma)
+                console.log('a soma dos numeros é de '+ soma)*/ 
+              
+
+              function subtrair(){
+                const n1 =  document.getElementById('n1').value
+                const n2 =  document.getElementById('n2').value
+
+                const subtrair =  Number(n1) - Number(n2)
+                const resultadoSub = document.getElementById('resultado').innerHTML = 'a subtração dos numeros é de '+ subtrair
+                resultado.innerHTML = 'a subtração dos numeros é de '+ subtrair
+              }
+
+              function mult(){
+                const n1 =  document.getElementById('n1').value
+                const n2 =  document.getElementById('n2').value
+
+                const mult =  Number(n1) * Number(n2)
+                const resultadoMult = document.getElementById('resultado').innerHTML = 'a multiplicação dos numeros é de '+ mult
+                resultado.innerHTML = 'a multiplicação dos numeros é de '+ mult
+              }
+
+
+              function divs(){
+                const n1 =  document.getElementById('n1').value
+                const n2 =  document.getElementById('n2').value
+
+                const divs =  Number(n1) / Number(n2)
+                const resultadoMult = document.getElementById('resultado').innerHTML = 'a divisão dos numeros é de '+ divs
+                resultado.innerHTML = 'a divisão dos numeros é de '+ divs
+              }
+
+
+
+        </script>
+
+
+
+
+
+
+</head>
+<body>
+        <form action="">
+                N1: <input type="text" id="n1"><br>
+                N2: <input type="text" id="n2"><br>
+                <input type="button" value="somar" onclick="somar()">
+                <input type="button" value="subtrair" onclick="subtrair()">
+                <input type="button" value="mult" onclick="mult()">
+                <input type="button" value="divs" onclick="divs()">
+
+                <h1 id="resultado"> Aritimetica </h1>
+
+        </form>
+</body>
+</html>
+

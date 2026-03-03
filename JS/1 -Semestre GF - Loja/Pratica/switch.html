@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura de Condições</title>
+
+    <script>
+        /*
+            Verificar o aumento de salario de acordo com os seguintes cargos:
+            Estagiario: 100%
+            Analista: 50%
+            Gerente: 30%
+            Presidente: 10%
+        
+        */
+
+        const salario = prompt("Escolha um salario")
+        const cargo = prompt("Escolha um cargo")
+        
+
+
+        switch (cargo) {
+            case "Estagiario":   aumento = 1; break;
+            case "Analista":     aumento = 0.5; break;
+            case "Gerente":     aumento = 0.3; break;
+            case "Presidente": aumento = 0.1; break;
+            default: alert('Favor, escolher um cargo valido!')
+        }
+        const salarioNovo= salario + (salario*aumento)
+        //const salarioNovo = salario * (1 + aumento)
+        // const salarioNovo = salario * aumento (Nessa forma tem que colocar o valor final na variavel. Ex: o 1 vira 2, 0 0.5 vira 1.5)
+        
+        console.log("O aumento foi de: R$ " + salarioNovo)
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

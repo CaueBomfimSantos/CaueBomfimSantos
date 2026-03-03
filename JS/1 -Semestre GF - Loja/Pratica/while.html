@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>  
+    <head>  
+        <title>Estutrura de repetição</title>
+        
+        <script>
+
+            let contador = 1
+            const qtd = prompt('Quantas notas?')
+            
+            let soma = 0
+            let nota = 0
+            
+            
+            
+            
+            while(contador <= qtd){
+
+                do{
+
+                    nota = Number(prompt('Escolha uma nota: ' + contador))
+
+                }while(nota < 10)
+               
+               
+               
+                nota = Number(prompt('Escolha uma nota: ' + contador))
+               // contador = contador +1
+               soma = soma + nota
+               contador++
+
+
+            }
+            
+            const media = soma/qtd
+
+            
+            console.log('Nota total: '+ soma)
+            console.log('Media: '+ media)
+
+            const resultado = media >= 7 ? 'Aprovado' : 'Reprovado'
+            console.log('Resultado: ' + resultado)
+
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
