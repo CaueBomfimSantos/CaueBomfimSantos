@@ -63,17 +63,6 @@ Graduação em Banco de Dados – 2º semestre
  ┣ 📂 03_PYTHON
  ┗ 📂 04_OUTROS
 ```
----
 
-## 📝 Padrão de Documentação
 
-``` 
-/*
-Autor: Cauê do Bomfim Santos
-Data: dd-mm-yyyy
-Descrição: Breve descrição da atualização.
-Versão: 1.0
 
-Histórico:
-1.0 - Criação do script
-*/
