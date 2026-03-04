@@ -28,7 +28,5 @@ Simular um pequeno sistema de concessionária para praticar modelagem e estrutur
 - MySQL
 - MySQL Workbench
 
-## 📌 Observação
 
-Este repositório faz parte da minha evolução nos estudos em Banco de Dados e continuará sendo atualizado conforme avanço nos conteúdos.
 
