@@ -1,68 +1,63 @@
 # 🚀 Cauê do Bomfim Santos
 
-**Estudante de Banco de Dados | Foco em DBA SQL | JavaScript & Python**
+**Estudante de Análise e Desenvolvimento de Sistemas | Python & SQL | Backend em formação**
 
-Sou estudante de graduação pela Gran Faculdade, atualmente no 2º semestre da graduação em Banco de Dados.  
-No momento, estou cursando a disciplina de Banco de Dados – Modelo Relacional (UA2), aprofundando meus conhecimentos em modelagem, normalização e linguagem SQL.
+Sou estudante de Análise e Desenvolvimento de Sistemas (ADS) pela Gran Faculdade, atualmente no 3º semestre da graduação.
 
-Tenho como objetivo iniciar minha carreira como Estagiário em Banco de Dados / DBA Júnior, construindo uma base sólida em administração, performance e segurança de ambientes SQL.
+Estou construindo minha base em programação e desenvolvimento de sistemas, com estudos voltados para Python, Programação Orientada a Objetos (POO), SQL e bancos de dados relacionais.
 
-Além da formação acadêmica, mantenho rotina de estudos em JavaScript e Python, aplicando os conceitos em projetos práticos para ampliar minha visão técnica e lógica de programação.
+Atualmente, utilizo o Python para aprofundar minha compreensão sobre os fundamentos da programação e conceitos de POO, como classes, objetos, atributos e métodos. Meu objetivo é construir uma base sólida e evoluir passo a passo, com foco futuro no desenvolvimento backend utilizando Java.
 
----
+Este GitHub reúne meus estudos, exercícios e projetos práticos, documentando minha evolução ao longo da graduação e da minha formação na área de Tecnologia da Informação.
 
 ## 📈 Objetivo Profissional
 
-Desenvolver carreira na área de Banco de Dados, com foco em:
+Busco construir minha carreira na área de Tecnologia da Informação, com interesse em:
 
-- Administração de SQL Server  
-- Performance e otimização de consultas  
-- Backup e recuperação de dados  
-- Segurança e controle de acesso  
-- Modelagem relacional  
-- Boas práticas em SQL  
+- Desenvolvimento Backend
+- Programação Orientada a Objetos
+- Desenvolvimento com Java
+- Bancos de Dados Relacionais
+- Linguagem SQL
+- Modelagem de Dados
 
-Este repositório documenta minha evolução técnica e prática ao longo da graduação.
+Atualmente, estou desenvolvendo minha base técnica por meio de estudos e projetos práticos, com o objetivo de conquistar minha primeira oportunidade profissional na área de TI e continuar evoluindo como desenvolvedor.
 
 ---
 
 ## 📚 Formação Acadêmica
 
-Graduação em Banco de Dados – 2º semestre  
+Graduação em Análise e Desenvolvimento de Sistemas
+Gran Faculdade — 3º semestre
 
-**Principais conteúdos desenvolvidos até o momento:**
+**Principais conhecimentos e conteúdos estudados até o momento:**
 
-- Lógica de Programação  
-- Algoritmos  
-- Fundamentos de Programação  
-- Arquitetura de Computadores  
-- Engenharia de Software  
-- Modelagem Conceitual de Dados  
-- Modelo Relacional  
-- Normalização  
-- Linguagem SQL (DDL, DML, consultas e junções)  
+- Lógica de Programação
+- Algoritmos
+- Fundamentos de Programação
+- Programação Orientada a Objetos
+- Arquitetura de Computadores
+- Engenharia de Software
+- Modelagem Conceitual de Dados
+- Modelo Relacional
+- Normalização
+- Linguagem SQL 
+- DDL e DML
+- Consultas e Junções
 
+--- 
+
+## 🛠️ Tecnologias e Ferramentas
+Em estudo e desenvolvimento
+- Python
+- Programação Orientada a Objetos (POO)
+- SQL
+- MySQL
+- Git
+- GitHub
+- Próximos passos
+- Java
+- Desenvolvimento Backend
+- Aprofundamento em Bancos de Dados
 ---
-
-## 🛠️ Tecnologias e Ferramentas em Estudo
-
-- SQL Server  
-- Linguagem SQL  
-- JavaScript  
-- Python  
-- Git e GitHub  
-
----
-
-## 📂 Estrutura do Repositório
-
-```bash
-📦 portfolio
- ┣ 📂 01_BDA
- ┣ 📂 02_JS
- ┣ 📂 03_PYTHON
- ┗ 📂 04_OUTROS
-```
-
-
-
+📌 Este perfil está em constante evolução. Aqui compartilho projetos, exercícios e estudos que fazem parte da minha jornada de aprendizado e desenvolvimento na área de Tecnologia da Informação.
